@@ -15,6 +15,8 @@ import (
 
 	"github.com/eth0izzle/shhgit/core"
 	"github.com/fatih/color"
+	"github.com/mattn/go-colorable"
+	"github.com/mattn/go-isatty"
 )
 
 type MatchEvent struct {
